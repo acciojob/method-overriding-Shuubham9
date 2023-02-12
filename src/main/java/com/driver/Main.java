@@ -1,8 +1,10 @@
 package com.driver;
 
 public class Main {
-  B b = new B();
-  b.meth();
+    public static void main(String[] args) {
+        B b = new B();
+        b.meth();
+    }
 }
 class A{
    String meth(){
